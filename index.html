@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon and App Icons -->
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link rel="apple-touch-icon" href="static/images/favicon.png">
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/prism.css">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+  <script defer src="static/js/prism.js"></script>
+  
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">
+              Spectral Masking Model for Vocal Clarity 
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                <a>Stefanos Biliousis</a></span>
+                <span class="author-block">
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <!-- TODO: Replace with your institution and conference/journal info -->
+                    <span class="author-block">
+                      Aalborg University<br>
+                      MED7: Sound and Music Perception and Cognition<br>
+                      Semester Project
+                    </span>
+
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      </a>
+                    </span>
+                    </a>
+                  </span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Description</h2>
+        <div class="content has-text-justified">
+          <p>
+This project investigates the perceptual interactions 
+between vocal and instrumental components in musical 
+mixtures through a computational model of spectral masking. 
+Grounded in psychoacoustic theory, particularly the 
+framework of critical bands and auditory 
+filterbanks (Zwicker & Fastl, 1999), the project aims to 
+quantify how overlapping spectral energy from 
+accompanying instruments reduces the perceived prominence 
+of the vocal signal. The methodology involves decomposing 
+isolated vocal and full mix signals into 
+Bark or ERB-scale frequency bands, 
+computing time-varying energy distributions, 
+and deriving a masking ratio that reflects 
+the degree of perceptual interference. 
+Psychoacoustic weighting is applied to approximate 
+auditory sensitivity across frequency regions, 
+culminating in a “masking index” that captures 
+the temporal and spectral dynamics of vocal 
+masking. This model provides a perceptually 
+informed representation of vocal clarity, 
+facilitating both analytical assessment of 
+mix transparency and potential applications in 
+adaptive audio processing systems designed to 
+enhance vocal intelligibility.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Introduction -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Introduction</h2>
+          <div class="content has-text-justified">
+          <p>
+              Yo this is the Introduction text test.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End Introduction -->
+
+<!-- Chapter 1 -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Methods </h2>
+          <div class="content has-text-justified">
+          <p>
+              Yo this is text should include the methods.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End Chapter 1 -->
+
+<!-- Chapter 2 -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Results </h2>
+          <div class="content has-text-justified">
+            <p>
+              Yo this text should include the results.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End Chapter 2 -->
+ 
+<!-- Chapter 2 -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Code </h2>
+          <div class="content has-text-justified">
+            <div class="box">
+              <pre>
+                <code class="language-python line-numbers">
+# This is to test that the css and js works showing code snipets...
+def new_function():
+    print("Hello, this is sound and music cognition and perception!")
+                </code>
+              </pre>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End Chapter 2 -->
+
+
+</body>
+</html>

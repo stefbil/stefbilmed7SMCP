@@ -130,52 +130,36 @@
               <h2 class="title is-3">Introduction</h2>
               <div class="content has-text-justified">
                 <p>
-                  The perceived need for
-                  release, referred to as musical tension,
-                  is a fundamental dynamic, which is especially
-                  crucial and explicit in Electronic Dance Music (EDM).
-                  The genre's primary goal is to elicit a powerful emotional
-                  and physiological response on the dance floor,
-                  which it achieves through the masterful manipulation
-                  of tension and release.<br>
-                  The quintessential structure of modern EDM centers
-                  on the large-scale "build-up" and "drop" cycle.
-                  The build-up is a dedicated section,
-                  usually 8 to 16 bars, that systematically introduces
-                  musical elements to heighten anticipation and intensity.
-                  The subsequent drop provides the cathartic release as
-                  the main beat and bassline return with full force.
-                  The drop's perceived impact is not intrinsic. It is profoundly
-                  magnified by the preceding build-up.<br>
-                  Historically, this structure evolved from the continuous
-                  grooves of early house and techno to the more pronounced
-                  breakdowns of 1990s trance, which proved highly
-                  effective in creating peak emotional experiences for large audiences.
+                  The perceived need for release, referred to as musical tension, is a fundamental dynamic, which is
+                  especially crucial and explicit in Electronic Dance Music (EDM) [13]. The genre's primary goal is to
+                  elicit
+                  a powerful emotional and physiological response on the dance floor, which it achieves through the
+                  masterful manipulation of tension and release [2], [9].<br>
+                  The quintessential structure of modern EDM centers on the large-scale "build-up" and "drop" cycle. The
+                  build-up is a dedicated section, usually 8 to 16 bars, that systematically introduces musical elements
+                  to heighten anticipation and intensity. The subsequent drop provides the cathartic release as the main
+                  beat and bassline return with full force. The drop's perceived impact is not intrinsic. It is
+                  profoundly magnified by the preceding build-up [1].<br>
+                  Historically, this structure evolved from the continuous grooves of early house and techno to the more
+                  pronounced breakdowns of 1990s trance, which proved highly effective in creating peak emotional
+                  experiences for large audiences.
                   <br>
-                  Understanding why build-ups work requires a perceptual framework.
-                  Music perception is not passive but an active organizational
-                  process known as Auditory Scene Analysis (ASA),
-                  which is governed by Gestalt principles.
-                  Gestalt theory posits that the brain automatically
-                  organizes sensory input into coherent "gestalts," or wholes.
-                  The core principle, Prägnanz, is the brain's innate preference
-                  for the simplest, most stable, and most orderly interpretation
-                  of sensory data.
-                  This relies on subsidiary principles, including:
+                  Understanding why build-ups work requires a perceptual framework. Music perception is not passive but
+                  an active organizational process known as Auditory Scene Analysis (ASA), which is governed by Gestalt
+                  principles [4], [5], [6]. Gestalt theory posits that the brain automatically organizes sensory input
+                  into coherent "gestalts," or wholes. The core principle, Prägnanz, is the brain's innate preference
+                  for the simplest, most stable, and most orderly interpretation of sensory data. This relies on
+                  subsidiary principles, including:
                 <ul>
                   <li>Proximity: Grouping elements that are close in time or pitch.</li>
                   <li>Similarity: Grouping elements that share features like timbre or loudness.</li>
                   <li>Continuation: Perceiving elements that form a smooth line as a single entity.</li>
                 </ul>
-                This report argues that an EDM build-up creates tension
-                by systematically and deliberately violating these principles.
-                Production techniques actively work against the brain's
-                tendency toward Prägnanz, forcing the perceptual system
-                into a state of increasing instability and complexity.
-                This resistance to simple grouping creates "perceptual strain."
-                The subjective, emotional experience of rising tension is the
-                direct correlate of the increasing cognitive effort
-                required to parse a soundscape that actively
+                This report argues that an EDM build-up creates tension by systematically and deliberately violating
+                these principles. Production techniques actively work against the brain's tendency toward Prägnanz,
+                forcing the perceptual system into a state of increasing instability and complexity. This resistance to
+                simple grouping creates "perceptual strain." The subjective, emotional experience of rising tension is
+                the direct correlate of the increasing cognitive effort required to parse a soundscape that actively
                 defies the brain's fundamental organizational heuristics.
                 </p>
               </div>
@@ -220,20 +204,16 @@
               <h2 class="title is-3">Theoretical Foundations and Related Work</h2>
               <div class="content has-text-justified">
                 <p>
-                  Musical tension is fundamentally rooted in expectation.
-                  An EDM build-up purposefully establishes and then delays
-                  an expected climactic event, known as the drop, thereby
-                  increasing arousal. This psychological manipulation has a
-                  clear neurochemical basis. The anticipation of the
-                  drop triggers an initial dopamine release in the
-                  brain's reward centers. The drop itself serves as the
-                  powerful resolution that fulfills this chemically primed
-                  expectation, resulting in a euphoric dopamine flood.
-                  This effect is further amplified by contrastive
-                  valence: the negative, tense state of the build-up
-                  makes the subsequent positive release of the drop feel more potent.
+                  Musical tension is fundamentally rooted in expectation [11]. An EDM build-up purposefully establishes
+                  and
+                  then delays an expected climactic event, known as the drop, thereby increasing arousal. This
+                  psychological manipulation has a clear neurochemical basis. The anticipation of the drop triggers an
+                  initial dopamine release in the brain's reward centers [10]. The drop itself serves as the powerful
+                  resolution that fulfills this chemically primed expectation, resulting in a euphoric dopamine flood.
+                  This effect is further amplified by contrastive valence: the negative, tense state of the build-up
+                  makes the subsequent positive release of the drop feel more potent [11].
 
-                  Producers employ a standard toolkit to achieve this effect:
+                  Producers employ a standard toolkit to achieve this effect [13]:
                 <ul>
                   <li>Filtering: High-pass filter sweeps progressively remove low frequencies.</li>
                   <li>Rhythm: Accelerating snare rolls increase event density.</li>
@@ -242,29 +222,18 @@
                     immediately before the drop to maximize its impact by contrast.</li>
                 </ul>
 
-                The computational modeling of musical tension is an active
-                field in Music Information Retrieval (MIR).
-                Research confirms that subjective tension can
-                be accurately predicted by a weighted sum of
-                musical features. State-of-the-art models like TenseMusic
-                demonstrate this by tracking features like loudness,
-                pitch, and tempo, as well as their rate of change (slope).
-                The novelty of this project is not in its architecture
-                (which adopts the established weighted-sum paradigm) but
-                in its theoretical motivation. Rather than using an eclectic
-                set of acoustic correlates, this project's features are
-                chosen specifically to represent violations of a single,
-                coherent psychological theory.
-                This creates a conceptual paradox.
-                Gestalt psychology is holistic
-                ("the whole is different from the sum of its parts"),
-                whereas a feature-based computational model is inherently
-                reductionist ("the whole is the sum of its parts").
-                This report acknowledges this paradox, presenting the model
-                as a pragmatic engineering solution that uses a reductionist
-                method to quantify the drivers of what is ultimately a
+                The computational modeling of musical tension is an active field in Music Information Retrieval (MIR)
+                [7]. Research confirms that subjective tension can be accurately predicted by a weighted sum of musical
+                features [12]. State-of-the-art models like TenseMusic [8] demonstrate this by tracking
+                features like loudness, pitch, and tempo, as well as their rate of change (slope). The novelty of this
+                project is not in its architecture (which adopts the established weighted-sum paradigm) but in its
+                theoretical motivation. Rather than using an eclectic set of acoustic correlates, this project's
+                features are chosen specifically to represent violations of a single, coherent psychological theory.
+                This creates a conceptual paradox. Gestalt psychology is holistic ("the whole is different from the sum
+                of its parts"), whereas a feature-based computational model is inherently reductionist ("the whole is
+                the sum of its parts"). This report acknowledges this paradox, presenting the model as a pragmatic
+                engineering solution that uses a reductionist method to quantify the drivers of what is ultimately a
                 holistic perceptual phenomenon.
-
                 </p>
               </div>
             </div>
@@ -307,40 +276,41 @@
                   <br>
                   <br>
                   <b>Pitch Proximity Violation (The "Riser"):</b><br>
-                  This feature operationalizes the violation of pitch proximity, as
-                  exemplified by the continuously ascending pitch of a synth riser.<br>
-                  To track this rising pitch, the YIN fundamental frequency \(F_0\)
-                  estimation algorithm was applied. This implementation
-                  specifically targets the most stable tonal element by first applying a harmonic-percussive source
-                  separation (HPSS) and running the YIN algorithm only on the resulting harmonic component of the
-                  signal. The algorithm estimates \(F_0\) for each analysis frame. Unvoiced frames (those with low
-                  periodicity) are set to 'Not a Number' (NaN) to be excluded from later calculations.<br>
+                  This feature operationalizes the violation of pitch proximity, as exemplified by the continuously
+                  ascending pitch of a synth riser.<br>
+                  To track this rising pitch, the YIN fundamental frequency \(F_0\) estimation algorithm was applied
+                  [14]. This implementation specifically targets the most stable tonal element by first
+                  applying a harmonic-percussive source separation (HPSS) and running the YIN algorithm only on the
+                  resulting harmonic component of the signal. The algorithm estimates \(F_0\) for each analysis frame.
+                  Unvoiced frames (those with low periodicity) are set to 'Not a Number' (NaN) to be excluded from later
+                  calculations.<br>
                   The raw \(F_0\) time-series is first smoothed using a NaN-aware moving average filter with reflect
                   padding to reduce spurious fluctuations. The smoothed curve is then normalized.
                   <br>
                   <br>
                   <b>Timbral Similarity Violation (The "Filter Sweep"):</b><br>
-                  This feature quantifies the violation of timbral similarity caused by the
-                  timbral brightening effect of a high-pass filter sweep.<br>
+                  This feature quantifies the violation of timbral similarity caused by the timbral brightening effect
+                  of a high-pass filter sweep.<br>
                   The Spectral Centroid was calculated for each audio frame using
-                  <code>librosa.feature.spectral_centroid</code>. The spectral centroid is
-                  defined as the "center of mass" of a signal's frequency spectrum. It is calculated as the weighted
-                  mean of the frequencies present in the spectrum, where the magnitude of each frequency serves as its
-                  weight.<br>
-                  The formula is:$$C = \frac{\sum_{n=0}^{N-1} f(n)x(n)}{\sum_{n=0}^{N-1} x(n)}$$ where \(x(n)\)
-                  is the magnitude of frequency bin \(n\), and \(f(n)\) is the center frequency of that bin.<br>
-                  The spectral centroid has a strong and robust perceptual correlation with the
-                  "brightness" of a sound. As a high-pass filter's cutoff frequency rises, it removes low-frequency
-                  energy from the signal. This causes the spectrum's center of mass to shift upwards, resulting in a
-                  corresponding increase in the spectral centroid value.<br>
-                  Similar to the pitch feature,
-                  the resulting time-series of spectral centroid values is smoothed using a NaN-aware moving average
-                  filter before being normalized.
-                  <br>
+                  <code>librosa.feature.spectral_centroid</code>. The spectral centroid is defined as the "center of
+                  mass" of a signal's frequency spectrum [15], [16]. It is calculated as the weighted mean of the
+                  frequencies
+                  present in the spectrum, where the magnitude of each frequency serves as its weight.<br>
+                  The formula is (Peeters et al.) [16]:
+
+                  $$C = \frac{\sum_{n=0}^{N-1} f(n)x(n)}{\sum_{n=0}^{N-1} x(n)}$$ where \(x(n)\) is the
+                  magnitude of frequency bin \(n\), and \(f(n)\) is the center frequency of that bin.<br>
+                  The spectral centroid has a strong and robust perceptual correlation with the "brightness" of a sound
+                  [3], [15]. As a high-pass filter's cutoff frequency rises, it removes low-frequency energy from the
+                  signal.
+                  This causes the spectrum's center of mass to shift upwards, resulting in a corresponding increase in
+                  the spectral centroid value.<br>
+                  Similar to the pitch feature, the resulting time-series of spectral centroid values is smoothed using
+                  a NaN-aware moving average filter before being normalized.
                   <br>
                   <b>Temporal Proximity Violation (The "Snare Roll"):</b><br>
                   This feature models the increase in temporal proximity (or decrease in the
-                  time between events) that characterizes rhythmic acceleration, such as a snare roll.<br>
+                  time between events) that characterizes rhythmic acceleration, such as a snare roll [13].<br>
                   The feature is calculated as the inverse of the Inter-Onset Interval (IOI) through a multi-step
                   process.
                   An onset detection function (<code>librosa.onset.onset_strength</code> followed by
@@ -370,10 +340,11 @@
                   final index is computed as a NaN-aware weighted average, not a simple sum. The user provides weights
                   (\(w_1, w_2, w_3\)), which are first normalized to sum to 1. Then, for each time frame \(t\), the
                   model
-                  calculates the tension as:
+                  calculates the tension as (Farbood) [12]:
                   $$Tension(t) = \frac{\sum_{i=1}^{3} w_i \cdot F_{i, norm}(t)}{\sum_{i=1}^{3} w_i \cdot M_i(t)}$$
 
-                  where \(F_{i, norm}(t)\) is the normalized value of feature \(i\) at time \(t\), \(w_i\) is its normalized
+                  where \(F_{i, norm}(t)\) is the normalized value of feature \(i\) at time \(t\), \(w_i\) is its
+                  normalized
                   weight, and \(M_i(t)\) is a mask that is 1 if the feature is valid (not NaN) at time \(t\) and 0
                   otherwise.
                   For the purposes of this project, the weights
@@ -680,29 +651,54 @@
               <div class="content has-text-justified">
                 <p>
                   The results generated by the model, particularly the consistent, accelerating arc of the Composite
-                  Tension Index, support the project's central hypothesis. The rising index can be interpreted as more
-                  than a simple description of acoustic signal properties. It represents a quantitative model of a
-                  listener's underlying perceptual and cognitive state during the build-up. The model provides an
-                  objective correlate to the subjective experience of mounting excitement and anticipation.
-                  <br>
-                  This interpretation is grounded in the Gestalt framework that motivated the model's design. The
-                  increasing Tension Index reflects the escalating "perceptual strain" placed upon the auditory system.
-                  As the synth riser violates pitch proximity, the filter sweep violates timbral similarity, and the
-                  snare roll violates temporal proximity, the brain must expend increasing cognitive resources to parse
-                  an auditory scene that is actively resisting its innate organizational heuristics. The peak of the
-                  tension curve represents the point of maximum perceptual instability, the moment where the need for
-                  resolution, for a return to a stable, predictable perceptual state, is at its highest. The subsequent
-                  drop provides this resolution, collapsing the accumulated perceptual complexity back into a stable,
-                  rhythmically grounded pattern, thereby generating the powerful cathartic release that is the hallmark
-                  of the EDM experience.
+                  Tension Index, strongly support the project's central hypothesis. The rising index serves as an
+                  objective correlate to the subjective experience of mounting excitement, confirming that
+                  "perceptual strain" can be modeled as a summation of acoustic violations.
+                  <br><br>
+                  <b>Interpretation of the Tension Arc</b><br>
+                  The exponential shape observed in the majority of the analyzed tracks (Figure 5) aligns with Huron's
+                  ITPRA theory of expectation [11]. The model captures how producers avoid linear progression in favor
+                  of a non-linear "looming" effect. As the build-up approaches the drop, the simultaneous
+                  intensification
+                  of pitch (risers), timbre (filter sweeps), and rhythm (snare rolls) creates a "hyper-stimulus" that
+                  maximizes the dopamine response associated with anticipation [10]. The sharp decline at the drop
+                  (implied by the termination of the curves) represents the resolution of this conflict, fulfilling the
+                  structural function identified by Solberg in her analysis of EDM mechanics [13].
+                  <br><br>
+                  <b>Evaluation of Feature Effectiveness</b><br>
+                  The decomposition of tension into specific Gestalt violations proved effective. The YIN-based pitch
+                  tracker successfully identified the "riser" as a primary driver of tension, validating the premise
+                  that
+                  continuous pitch ascent acts as a violation of pitch proximity. Similarly, the use of inverse IOI
+                  captured the rhythmic density increase characteristic of snare rolls. However, the spectral centroid
+                  showed the highest variance between tracks, suggesting that while timbral brightening is a universal
+                  goal, the specific methods (white noise sweeps vs. synth cutoff modulation) vary significantly in
+                  spectral footprint [15].
                 </p>
                 <p>
-                <h5><b>Limitations</b></h5>
-                Two main limitations constrain the model’s precision. First, rhythmic tension is simplified to the
-                inverse Inter-Onset Interval, which captures acceleration but overlooks higher order structures like
-                syncopation or microtiming. Second, all features were equally weighted, an assumption unlikely to
-                match real perceptual salience. Future refinements should apply regression based weighting from
-                listener data and integrate features such as loudness, roughness, or harmonic dissonance.
+                <h5 class="title is-5">Limitations and Future Work</h5>
+                While the model successfully outlines the macro-structure of tension, two significant limitations exist:
+                <ul>
+                  <li>
+                    <b>Linear Weighting Assumption:</b> The current implementation weighs all three features equally
+                    (\(w_1=w_2=w_3=1\)). Research by Farbood [12] and the TenseMusic model [8] suggests that
+                    listeners prioritize certain features (e.g., dynamics or pitch) over others depending on context. A
+                    future iteration should employ regression analysis on annotated listener data to derive optimal,
+                    perceptually weighted coefficients.
+                  </li>
+                  <li>
+                    <b>Rhythmic Simplification:</b> The \(IOI^{-1}\) feature captures acceleration (the "snare roll")
+                    but fails to account for syncopation or groove complexity. A track could increase tension by
+                    becoming rhythmically erratic rather than simply faster.
+                  </li>
+                  <li>
+                    <b>Interaction Effects:</b> The model treats features as independent vectors. In reality, masking
+                    effects occur; for example, a loud white noise sweep (high centroid) might perceptually mask the
+                    pitch trajectory of a riser.
+                  </li>
+                </ul>
+                Despite these limitations, the system demonstrates that Gestalt-based feature extraction provides a
+                viable, interpretable framework for quantifying the "drop" phenomenon in electronic dance music.
                 </p>
               </div>
             </div>
@@ -711,191 +707,166 @@
     </section>
     <!-- End Discussion -->
 
-<!-- Literature  -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3">Literature</h2>
-          <div class="columns has-text-justified" style="font-size: 0.9rem;">
+    <!-- Literature  -->
+    <section class="hero is-small">
+      <div class="hero-body">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Literature</h2>
+              <div class="columns has-text-justified" style="font-size: 0.9rem;">
 
-            <!-- Left column -->
-            <div class="column is-half content">
-              <div class="csl-bib-body" style="line-height: 1.35; ">
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[1]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">M. Navarro-Cáceres, M. Caetano, G. Bernardes, M.
-                    Sánchez-Barba, and J. Merchán Sánchez-Jara, “A Computational Model of Tonal Tension Profile of Chord
-                    Progressions in the Tonal Interval Space,” <i>Entropy</i>, vol. 22, no. 11, p. 1291, Nov. 2020, doi: <a
-                      href="https://doi.org/10.3390/e22111291">10.3390/e22111291</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.3390%2Fe22111291&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=A%20Computational%20Model%20of%20Tonal%20Tension%20Profile%20of%20Chord%20Progressions%20in%20the%20Tonal%20Interval%20Space&amp;rft.jtitle=Entropy&amp;rft.volume=22&amp;rft.issue=11&amp;rft.aufirst=Mar%C3%ADa&amp;rft.aulast=Navarro-C%C3%A1ceres&amp;rft.au=Mar%C3%ADa%20Navarro-C%C3%A1ceres&amp;rft.au=Marcelo%20Caetano&amp;rft.au=Gilberto%20Bernardes&amp;rft.au=Mercedes%20S%C3%A1nchez-Barba&amp;rft.au=Javier%20Merch%C3%A1n%20S%C3%A1nchez-Jara&amp;rft.date=2020-11&amp;rft.pages=1291&amp;rft.issn=1099-4300&amp;rft.language=en"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[2]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">A. Barrera, <i>ABSounds/YIN-Pitch</i>. (Oct. 07,
-                    2025). Jupyter Notebook. Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://github.com/ABSounds/YIN-Pitch">https://github.com/ABSounds/YIN-Pitch</a></div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=computerProgram&amp;rft.title=ABSounds%2FYIN-Pitch&amp;rft.rights=AGPL-3.0&amp;rft.description=YIN%20pitch%20estimation%20algorithm%20implementation%20using%20Python.&amp;rft.identifier=https%3A%2F%2Fgithub.com%2FABSounds%2FYIN-Pitch&amp;rft.aufirst=Alberto&amp;rft.aulast=Barrera&amp;rft.au=Alberto%20Barrera&amp;rft.date=2025-10-07"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[3]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">A. S. Turrell, A. R. Halpern, K. Bannister, D.
-                    Chai-Wi-Ting, and A.-H. Javadi, “Building the Anticipation: How Variation in Tension Mediates Emotions in
-                    Music,” <i>Music Perception</i>, vol. 42, no. 3, pp. 256–268, Dec. 2024, doi: <a
-                      href="https://doi.org/10.1525/mp.2024.aa004">10.1525/mp.2024.aa004</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1525%2Fmp.2024.aa004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Building%20the%20Anticipation%3A%20How%20Variation%20in%20Tension%20Mediates%20Emotions%20in%20Music&amp;rft.jtitle=Music%20Perception&amp;rft.stitle=Music%20Perception&amp;rft.volume=42&amp;rft.issue=3&amp;rft.aufirst=Amelia%20S.&amp;rft.aulast=Turrell&amp;rft.au=Amelia%20S.%20Turrell&amp;rft.au=Andrea%20R.%20Halpern&amp;rft.au=Katy%20Bannister&amp;rft.au=Dawn%20Chai-Wi-Ting&amp;rft.au=Amir-Homayoun%20Javadi&amp;rft.date=2024-12-19&amp;rft.pages=256-268&amp;rft.spage=256&amp;rft.epage=268&amp;rft.issn=0730-7829"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[4]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">C. Cancino Chacón, “Computational Modeling of
-                    Expressive Music Performance with Linear and Non-linear Basis Function Models,” 2018.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adissertation&amp;rft.title=Computational%20Modeling%20of%20Expressive%20Music%20Performance%20with%20Linear%20and%20Non-linear%20Basis%20Function%20Models&amp;rft.aufirst=Carlos&amp;rft.aulast=Cancino%20Chac%C3%B3n&amp;rft.au=Carlos%20Cancino%20Chac%C3%B3n&amp;rft.date=2018-12-18"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[5]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">Will, “Creating Tension &amp; Excitement in
-                    Electronic Dance Music | EDMtips,” EDM Tips. Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://edmtips.com/tension-excitement/">https://edmtips.com/tension-excitement/</a></div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=Creating%20Tension%20%26%20Excitement%20in%20Electronic%20Dance%20Music%20%20%7C%20%20EDMtips&amp;rft.description=Dance%20music%20is%20all%20about%20excitement%2C%20and%20the%20way%20to%20create%20excitement%20is%20with%20tension.%20This%20guide%20shows%20you%208%20easy%20ways%20to%20make%20YOUR%20music%20more%20exciting.&amp;rft.identifier=https%3A%2F%2Fedmtips.com%2Ftension-excitement%2F&amp;rft.aulast=Will&amp;rft.au=Will&amp;rft.date=2017-05-08&amp;rft.language=en-GB"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[6]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. W. Kim, J. Salamon, P. Li, and J. P. Bello,
-                    “CREPE: A Convolutional Representation for Pitch Estimation,” Feb. 20, 2018, <i>arXiv</i>: arXiv:1802.06182.
-                    doi: <a href="https://doi.org/10.48550/arXiv.1802.06182">10.48550/arXiv.1802.06182</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.48550%2FarXiv.1802.06182&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=preprint&amp;rft.title=CREPE%3A%20A%20Convolutional%20Representation%20for%20Pitch%20Estimation&amp;rft.description=The%20task%20of%20estimating%20the%20fundamental%20frequency%20of%20a%20monophonic%20sound%20recording%2C%20also%20known%20as%20pitch%20tracking%2C%20is%20fundamental%20to%20audio%20processing%20with%20multiple%20applications%20in%20speech%20processing%20and%20music%20information%20retrieval.%20To%20date%2C%20the%20best%20performing%20techniques%2C%20such%20as%20the%20pYIN%20algorithm%2C%20are%20based%20on%20a%20combination%20of%20DSP%20pipelines%20and%20heuristics.%20While%20such%20techniques%20perform%20very%20well%20on%20average%2C%20there%20remain%20many%20cases%20in%20which%20they%20fail%20to%20correctly%20estimate%20the%20pitch.%20In%20this%20paper%2C%20we%20propose%20a%20data-driven%20pitch%20tracking%20algorithm%2C%20CREPE%2C%20which%20is%20based%20on%20a%20deep%20convolutional%20neural%20network%20that%20operates%20directly%20on%20the%20time-domain%20waveform.%20We%20show%20that%20the%20proposed%20model%20produces%20state-of-the-art%20results%2C%20performing%20equally%20or%20better%20than%20pYIN.%20Furthermore%2C%20we%20evaluate%20the%20model's%20generalizability%20in%20terms%20of%20noise%20robustness.%20A%20pre-trained%20version%20of%20CREPE%20is%20made%20freely%20available%20as%20an%20open-source%20Python%20module%20for%20easy%20application.&amp;rft.identifier=urn%3Adoi%3A10.48550%2FarXiv.1802.06182&amp;rft.aufirst=Jong%20Wook&amp;rft.aulast=Kim&amp;rft.au=Jong%20Wook%20Kim&amp;rft.au=Justin%20Salamon&amp;rft.au=Peter%20Li&amp;rft.au=Juan%20Pablo%20Bello&amp;rft.date=2018-02-20"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[7]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">E. Schubert and J. Wolfe, “Does Timbral Brightness
-                    Scale with Frequency and Spectral Centroid?,” vol. 92, 2006.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Does%20Timbral%20Brightness%20Scale%20with%20Frequency%20and%20Spectral%20Centroid%3F&amp;rft.volume=92&amp;rft.aufirst=Emery&amp;rft.aulast=Schubert&amp;rft.au=Emery%20Schubert&amp;rft.au=Joe%20Wolfe&amp;rft.date=2006&amp;rft.language=en"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[8]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">M. Reybrouck, “Gestalt concepts and music:
-                    Limitations and possibilities,” in <i>Music, Gestalt, and Computing</i>, M. Leman, Ed., Berlin, Heidelberg:
-                    Springer, 1997, pp. 57–69. doi: <a href="https://doi.org/10.1007/BFb0034107">10.1007/BFb0034107</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1007%2FBFb0034107&amp;rft_id=urn%3Aisbn%3A978-3-540-69591-2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=proceeding&amp;rft.atitle=Gestalt%20concepts%20and%20music%3A%20Limitations%20and%20possibilities&amp;rft.btitle=Music%2C%20Gestalt%2C%20and%20Computing&amp;rft.place=Berlin%2C%20Heidelberg&amp;rft.publisher=Springer&amp;rft.aufirst=Mark&amp;rft.aulast=Reybrouck&amp;rft.au=Mark%20Reybrouck&amp;rft.au=Marc%20Leman&amp;rft.date=1997&amp;rft.pages=57-69&amp;rft.spage=57&amp;rft.epage=69&amp;rft.isbn=978-3-540-69591-2&amp;rft.language=en"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[9]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Sanyal <i>et al.</i>, “Gestalt Phenomenon in
-                    Music? A Neurocognitive Physics Study with EEG,” Mar. 21, 2017, <i>arXiv</i>: arXiv:1703.06491. doi: <a
-                      href="https://doi.org/10.48550/arXiv.1703.06491">10.48550/arXiv.1703.06491</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.48550%2FarXiv.1703.06491&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=preprint&amp;rft.title=Gestalt%20Phenomenon%20in%20Music%3F%20A%20Neurocognitive%20Physics%20Study%20with%20EEG&amp;rft.description=The%20term%20gestalt%20has%20been%20widely%20used%20in%20the%20field%20of%20psychology%20which%20defined%20the%20perception%20of%20human%20mind%20to%20group%20any%20object%20not%20in%20part%20but%20as%20a%20unified%20whole.%20Music%20in%20general%20is%20polytonic%20i.e.%20a%20combination%20of%20a%20number%20of%20pure%20tones%20(frequencies)%20mixed%20together%20in%20a%20manner%20that%20sounds%20harmonius.%20The%20study%20of%20human%20brain%20response%20due%20to%20different%20frequency%20groups%20of%20acoustic%20signal%20can%20give%20us%20an%20excellent%20insight%20regarding%20the%20neural%20and%20functional%20architecture%20of%20brain%20functions.%20In%20this%20work%20we%20have%20tried%20to%20analyze%20the%20effect%20of%20different%20frequency%20bands%20of%20music%20on%20the%20various%20frequency%20rhythms%20of%20human%20brain%20obtained%20from%20EEG%20data%20of%205%20participants.%20Four%20(4)%20widely%20popular%20Rabindrasangeet%20clips%20were%20subjected%20to%20Wavelet%20Transform%20method%20for%20extracting%20five%20resonant%20frequency%20bands%20from%20the%20original%20music%20signal.%20These%20resonant%20frequency%20bands%20were%20presented%20to%20the%20subjects%20as%20auditory%20stimulus%20and%20EEG%20signals%20recorded%20simultaneously%20in%2019%20different%20locations%20of%20the%20brain.%20The%20recorded%20EEG%20signals%20were%20noise%20cleaned%20and%20subjected%20to%20Multifractal%20Detrended%20Fluctuation%20Analysis%20(MFDFA)%20technique%20on%20the%20alpha%2C%20theta%20and%20gamma%20frequency%20range.%20Thus%2C%20we%20obtained%20the%20complexity%20values%20(in%20the%20form%20of%20multifractal%20spectral%20width)%20in%20alpha%2C%20theta%20and%20gamma%20EEG%20rhythms%20corresponding%20to%20different%20frequency%20bands%20of%20music.%20We%20obtain%20frequency%20specific%20arousal%20based%20response%20in%20different%20lobes%20of%20brain%20as%20well%20as%20in%20specific%20EEG%20bands%20corresponding%20to%20musical%20stimuli.%20This%20revelation%20can%20be%20of%20immense%20importance%20when%20it%20comes%20to%20the%20field%20of%20cognitive%20music%20therapy.&amp;rft.identifier=urn%3Adoi%3A10.48550%2FarXiv.1703.06491&amp;rft.aufirst=Shankha&amp;rft.aulast=Sanyal&amp;rft.au=Shankha%20Sanyal&amp;rft.au=Archi%20Banerjee&amp;rft.au=Souparno%20Roy&amp;rft.au=Sourya%20Sengupta&amp;rft.au=Sayan%20Biswas&amp;rft.au=Sayan%20Nag&amp;rft.au=Ranjan%20Sengupta&amp;rft.au=Dipak%20Ghosh&amp;rft.date=2017-03-21"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[10]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. P. Trujillo and J. Holler, “Interactionally
-                    Embedded Gestalt Principles of Multimodal Human Communication,” <i>Perspect Psychol Sci</i>, vol. 18, no. 5, pp.
-                    1136–1159, Sept. 2023, doi: <a href="https://doi.org/10.1177/17456916221141422">10.1177/17456916221141422</a>.
+                <div class="column is-half content">
+                  <div class="csl-bib-body" style="line-height: 1.35; ">
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[1]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">A. S. Turrell et al., “Building the
+                        Anticipation: How Variation in Tension Mediates Emotions in Music,” <i>Music Perception</i>,
+                        vol. 42, no. 3, pp. 256–268, Dec. 2024.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[2]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">Will, “Creating Tension & Excitement
+                        in Electronic Dance Music,” <i>EDM Tips</i>. [Online]. Available: <a
+                          href="https://edmtips.com/tension-excitement/">https://edmtips.com/tension-excitement/</a>
+                      </div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[3]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">E. Schubert and J. Wolfe, “Does
+                        Timbral Brightness Scale with Frequency and Spectral Centroid?,” <i>Proceedings of ICMPC</i>,
+                        vol. 92, 2006.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[4]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">M. Reybrouck, “Gestalt concepts and
+                        music: Limitations and possibilities,” in <i>Music, Gestalt, and Computing</i>, Springer, 1997,
+                        pp. 57–69.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[5]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Sanyal et al., “Gestalt
+                        Phenomenon in Music? A Neurocognitive Physics Study with EEG,” <i>arXiv:1703.06491</i>, 2017.
+                      </div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[6]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. P. Trujillo and J. Holler,
+                        “Interactionally Embedded Gestalt Principles of Multimodal Human Communication,” <i>Perspect
+                          Psychol Sci</i>, vol. 18, no. 5, 2023.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[7]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">K. Ruksha, “Music Information
+                        Retrieval: Feature Engineering,” <i>Medium</i>. [Online]. Available: <a
+                          href="https://medium.com/@kate.ruksha">medium.com/@kate.ruksha</a></div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[8]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">D. Park et al., “TenseMusic: An
+                        automatic prediction model for musical tension,” <i>PLOS One</i>, 2024.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[9]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Matla, “The Advanced Guide to
+                        Tension and Energy in Electronic Music,” <i>EDMProd</i>. [Online]. Available: <a
+                          href="https://www.edmprod.com/tension/">edmprod.com/tension/</a></div>
+                    </div>
+
                   </div>
                 </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1177%2F17456916221141422&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Interactionally%20Embedded%20Gestalt%20Principles%20of%20Multimodal%20Human%20Communication&amp;rft.jtitle=Perspectives%20on%20Psychological%20Science&amp;rft.stitle=Perspect%20Psychol%20Sci&amp;rft.volume=18&amp;rft.issue=5&amp;rft.aufirst=James%20P.&amp;rft.aulast=Trujillo&amp;rft.au=James%20P.%20Trujillo&amp;rft.au=Judith%20Holler&amp;rft.date=2023-09-01&amp;rft.pages=1136-1159&amp;rft.spage=1136&amp;rft.epage=1159&amp;rft.issn=1745-6916&amp;rft.language=EN"></span>
+
+                <div class="column is-half content">
+                  <div class="csl-bib-body" style="line-height: 1.35; ">
+
+
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[10]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">V. N. Salimpoor, M. Benovoy, K.
+                        Larcher, A. Dagher, and R. J. Zatorre, “Anatomically distinct dopamine release during
+                        anticipation and experience of peak emotion to music,” <i>Nature Neuroscience</i>, vol. 14, no.
+                        2, pp. 257–262, 2011.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[11]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">D. Huron, <i>Sweet Anticipation:
+                          Music and the Psychology of Expectation</i>. Cambridge, MA: MIT Press, 2006.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[12]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">M. M. Farbood, “A Parametric,
+                        Temporal Model of Musical Tension,” <i>Music Perception</i>, vol. 29, no. 4, pp. 387–428, 2012.
+                      </div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[13]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">R. T. Solberg, “Waiting for the bass
+                        to drop: Correlations between intense emotional experiences and production techniques in
+                        build-up and drop sections of electronic dance music,” <i>Dancecult: Journal of Electronic Dance
+                          Music Culture</i>, vol. 6, no. 1, pp. 61–82, 2014.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[14]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">A. de Cheveigné and H. Kawahara,
+                        “YIN, a fundamental frequency estimator for speech and music,” <i>The Journal of the Acoustical
+                          Society of America</i>, vol. 111, no. 4, pp. 1917–1930, 2002.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[15]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">J. M. Grey and J. W. Gordon,
+                        “Perceptual effects of spectral modifications on musical timbres,” <i>The Journal of the
+                          Acoustical Society of America</i>, vol. 63, no. 5, pp. 1493–1500, 1978.</div>
+                    </div>
+
+                    <div class="csl-entry" style="clear: left; ">
+                      <div class="csl-left-margin"
+                        style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[16]</div>
+                      <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">G. Peeters, B. L. Giordano, P.
+                        Susini, N. Misdariis, and S. McAdams, “The Timbre Toolbox: Extracting audio descriptors from
+                        musical signals,” <i>The Journal of the Acoustical Society of America</i>, vol. 130, no. 5, pp.
+                        2902–2916, 2011.</div>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
             </div>
-
-            <!-- Right column -->
-            <div class="column is-half content">
-              <div class="csl-bib-body" style="line-height: 1.35; ">
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[11]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">Y. Teo, “Measuring Harmonic Tension in Post-Tonal
-                    Repertoire,” <i>Empirical Musicology Review</i>, vol. 15, no. 1–2, Oct. 2020, doi: <a
-                      href="https://doi.org/10.18061/emr.v15i1-2.6994">10.18061/emr.v15i1-2.6994</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.18061%2Femr.v15i1-2.6994&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Measuring%20Harmonic%20Tension%20in%20Post-Tonal%20Repertoire&amp;rft.jtitle=Empirical%20Musicology%20Review&amp;rft.volume=15&amp;rft.issue=1-2&amp;rft.aufirst=Yvonne&amp;rft.aulast=Teo&amp;rft.au=Yvonne%20Teo&amp;rft.date=2020-10-22&amp;rft.issn=1559-5749&amp;rft.language=None"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[12]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">F. Lerdahl and C. Krumhansl, “Modeling Tonal
-                    Tension,” <i>Music Perception - MUSIC PERCEPT</i>, vol. 24, pp. 329–366, Apr. 2007, doi: <a
-                      href="https://doi.org/10.1525/mp.2007.24.4.329">10.1525/mp.2007.24.4.329</a>.</div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=info%3Adoi%2F10.1525%2Fmp.2007.24.4.329&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Modeling%20Tonal%20Tension&amp;rft.jtitle=Music%20Perception%20-%20MUSIC%20PERCEPT&amp;rft.stitle=Music%20Perception%20-%20MUSIC%20PERCEPT&amp;rft.volume=24&amp;rft.aufirst=Fred&amp;rft.aulast=Lerdahl&amp;rft.au=Fred%20Lerdahl&amp;rft.au=Carol%20Krumhansl&amp;rft.date=2007-04-01&amp;rft.pages=329-366&amp;rft.spage=329&amp;rft.epage=366"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[13]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“Music Information Retrieval: Feature Engineering |
-                    by Katsiaryna Ruksha | Medium.” Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://medium.com/@kate.ruksha/music-information-retrieval-feature-engineering-05748d26df48">https://medium.com/@kate.ruksha/music-information-retrieval-feature-engineering-05748d26df48</a>
-                  </div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Music%20Information%20Retrieval%3A%20Feature%20Engineering%20%7C%20by%20Katsiaryna%20Ruksha%20%7C%20Medium&amp;rft.identifier=https%3A%2F%2Fmedium.com%2F%40kate.ruksha%2Fmusic-information-retrieval-feature-engineering-05748d26df48"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[14]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“Pitch estimation using CREPE — shennong 1.0rc0
-                    documentation.” Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://docs.cognitive-ml.fr/shennong/python/processor/crepepitch.html">https://docs.cognitive-ml.fr/shennong/python/processor/crepepitch.html</a>
-                  </div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Pitch%20estimation%20using%20CREPE%20%E2%80%94%20shennong%201.0rc0%20documentation&amp;rft.identifier=https%3A%2F%2Fdocs.cognitive-ml.fr%2Fshennong%2Fpython%2Fprocessor%2Fcrepepitch.html"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[15]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“Spectral centroid,” <i>Wikipedia</i>. Sept. 14,
-                    2025. Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://en.wikipedia.org/w/index.php?title=Spectral_centroid&amp;oldid=1311200791">https://en.wikipedia.org/w/index.php?title=Spectral_centroid&amp;oldid=1311200791</a>
-                  </div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=encyclopediaArticle&amp;rft.title=Spectral%20centroid&amp;rft.rights=Creative%20Commons%20Attribution-ShareAlike%20License&amp;rft.description=The%20spectral%20centroid%20is%20a%20measure%20used%20in%20digital%20signal%20processing%20to%20characterise%20a%20spectrum.%20It%20indicates%20where%20the%20center%20of%20mass%20of%20the%20spectrum%20is%20located.%20Perceptually%2C%20it%20has%20a%20robust%20connection%20with%20the%20impression%20of%20brightness%20of%20a%20sound.%20It%20is%20sometimes%20called%20center%20of%20spectral%20mass.&amp;rft.identifier=https%3A%2F%2Fen.wikipedia.org%2Fw%2Findex.php%3Ftitle%3DSpectral_centroid%26oldid%3D1311200791&amp;rft.date=2025-09-14&amp;rft.language=en"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[16]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“TenseMusic: An automatic prediction model for
-                    musical tension | PLOS One.” Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296385">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0296385</a>
-                  </div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=TenseMusic%3A%20An%20automatic%20prediction%20model%20for%20musical%20tension%20%7C%20PLOS%20One&amp;rft.identifier=https%3A%2F%2Fjournals.plos.org%2Fplosone%2Farticle%3Fid%3D10.1371%2Fjournal.pone.0296385"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[17]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">S. Matla, “The Advanced Guide to Tension and Energy
-                    in Electronic Music,” EDMProd. Accessed: Nov. 12, 2025. [Online]. Available: <a
-                      href="https://www.edmprod.com/tension/">https://www.edmprod.com/tension/</a></div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=blogPost&amp;rft.title=The%20Advanced%20Guide%20to%20Tension%20and%20Energy%20in%20Electronic%20Music&amp;rft.description=How%20to%20do%20you%20create%20exciting%20build-ups%20and%20impactful%20drops%3F%20In%20this%20guide%2C%20we%20show%20you%20how%20to%20expertly%20use%20tension%20%26%20energy%20in%20your%20music.&amp;rft.identifier=https%3A%2F%2Fwww.edmprod.com%2Ftension%2F&amp;rft.aufirst=Sam&amp;rft.aulast=Matla&amp;rft.au=Sam%20Matla&amp;rft.date=2015-10-26&amp;rft.language=en-US"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[18]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“The Yin Algorithm: Main Page.” Accessed: Nov. 12,
-                    2025. [Online]. Available: <a
-                      href="http://mroy.chez-alice.fr/yin/index.html">http://mroy.chez-alice.fr/yin/index.html</a></div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=The%20Yin%20Algorithm%3A%20Main%20Page&amp;rft.identifier=http%3A%2F%2Fmroy.chez-alice.fr%2Fyin%2Findex.html"></span>
-                <div class="csl-entry" style="clear: left; ">
-                  <div class="csl-left-margin" style="float: left; padding-right: 0.5em;text-align: right; width: 2em;">[19]</div>
-                  <div class="csl-right-inline" style="margin: 0 .4em 0 2.5em;">“Yin Pitch Estimator in PyTorch.” Accessed: Nov. 12,
-                    2025. [Online]. Available: <a
-                      href="https://brentspell.com/blog/2022/pytorch-yin/">https://brentspell.com/blog/2022/pytorch-yin/</a></div>
-                </div>
-                <span class="Z3988"
-                  title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Yin%20Pitch%20Estimator%20in%20PyTorch&amp;rft.description=An%20estimator%20of%20fundamental%20frequency%2C%20or%20pitch%2C%20of%20an%20audio%20signal%20is%20a%20useful%20tool%20for%20many%20audio%20machine%20learning%20applications.%20For%20example%2C%20the%20pitch%20contour%20is%20used%20as%20an%20input%20feature%20in%20the%20Mellotron%20singing%20synthesizer%20and%20the%20DDSP%20sound%20generator.%20Pitch%20vectors%20can%20also%E2%80%A6&amp;rft.identifier=https%3A%2F%2Fbrentspell.com%2Fblog%2F2022%2Fpytorch-yin%2F&amp;rft.language=en"></span>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<!-- End Literature -->
+    </section>
+    <!-- End Literature -->
 
 
     <!-- Code -->

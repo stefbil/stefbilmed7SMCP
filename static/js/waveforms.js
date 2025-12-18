@@ -24,11 +24,14 @@ tracks.forEach(({ id, file }) => {
   if (container && button) {
     const ws = WaveSurfer.create({
       container,
-      waveColor: '#60a5fa',
-      progressColor: '#010101',
+      waveColor: '#a5b4fc', // Indigo 300 (lighter for wave)
+      progressColor: '#4338ca', // Indigo 700 (darker for progress)
       height: id === 6 ? 128 : 48, // keep Alesso taller
-      cursorWidth: 1,
-      cursorColor: '#fff',
+      cursorWidth: 2,
+      cursorColor: '#2e1065', // Indigo 950
+      barWidth: 2, // Modern bar style
+      barGap: 1,
+      barRadius: 2,
       responsive: true,
     });
 

@@ -235,6 +235,10 @@ h6,
   overflow: hidden;
 }
 
+main > section.hero:first-of-type .container.is-max-desktop {
+  max-width: 1200px;
+}
+
 .hero.is-light {
   background: var(--background-secondary);
   border-top: 1px solid var(--border-color);
@@ -260,12 +264,19 @@ h6,
   font-family: 'Inter', sans-serif !important;
   font-weight: 800 !important;
   color: var(--text-primary) !important;
-  margin-bottom: 2rem !important;
+  margin: 0 auto 2rem auto !important;
+  max-width: 1200px;
+  text-align: center;
   line-height: 1.1 !important;
+  font-size: 2.9rem !important;
   background: linear-gradient(135deg, var(--text-primary) 0%, var(--primary-color) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+.publication-title .title-line {
+  display: block;
 }
 
 .publication-banner {
